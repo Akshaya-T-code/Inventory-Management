@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Akshaya-T-code/Inventory-Management",
+  "homepage": ".",
   "name": "grocery-store-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
@@ -13,8 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo build:web"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
